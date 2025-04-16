@@ -187,7 +187,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 - 선형 방정식으로 학습
     - 무게, 길이, 대각서닐이, 높이, 두께 특성
     - z = a x 무게 + b x 길이 + c x 대각선길이 + d x 높이 + e x 두께 + f
-    - z : 0~1(0~100%)
+    - z : 0 ~ 1(0~100%)
 
 #### 활성화함수
 - `시그모이드함수` - z가 아주 큰 음수일 때 0으로, z가 아주 큰 양수일 때 1로 바꿔주는 함수
@@ -348,10 +348,17 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 ## 6일차
 ### 파이토치 기본학습
 - 파이토치 기본
-- [노트북]()
+- [노트북](./day06/mldl01_파이토치_기본.ipynb)
 
 ### 파이토치 실습
+- 파이토치로 Fashion-MNIST 실습
+- Keras CNN과 비교해서 학습할 것!
+- [노트북](./day06/mldl02_파이토치_합성곱신경망.ipynb)
+
+## 7일차
 ### 토이프로젝트
+
+### YOLO
 
 ## 8일차
 ### 코딩테스트
